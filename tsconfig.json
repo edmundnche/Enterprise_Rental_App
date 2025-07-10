@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2017",
+=======
+>>>>>>> master
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +23,14 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
+<<<<<<< HEAD
     }
+=======
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "types": [],
+    "target": "ES2017"
+>>>>>>> master
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
